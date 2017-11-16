@@ -1,4 +1,4 @@
-package com.mustafaergan.springbatch.controller;
+package com.mustafaergan.springbatch.model;
 
 public class Person {
 	private String lastName;

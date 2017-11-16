@@ -5,8 +5,8 @@ import org.slf4j.LoggerFactory;
 
 import org.springframework.batch.item.ItemProcessor;
 
-import com.mustafaergan.springbatch.controller.Person;
-import com.mustafaergan.springbatch.controller.Task;
+import com.mustafaergan.springbatch.model.Person;
+import com.mustafaergan.springbatch.model.Task;
 
 public class TaskItemProcessor implements ItemProcessor<Task, Person> {
 

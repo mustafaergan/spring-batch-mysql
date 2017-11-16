@@ -30,8 +30,8 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
-import com.mustafaergan.springbatch.controller.Person;
-import com.mustafaergan.springbatch.controller.Task;
+import com.mustafaergan.springbatch.model.Person;
+import com.mustafaergan.springbatch.model.Task;
 import com.mustafaergan.springbatch.processor.DatabaseReader;
 import com.mustafaergan.springbatch.processor.JobCompletionNotificationListener;
 import com.mustafaergan.springbatch.processor.PersonItemProcessor;

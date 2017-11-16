@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-import com.mustafaergan.springbatch.controller.Task;
+import com.mustafaergan.springbatch.model.Task;
 
 @Component
 public class TaskReader {

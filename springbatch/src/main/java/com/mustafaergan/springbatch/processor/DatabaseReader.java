@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.mustafaergan.springbatch.controller.Task;
+import com.mustafaergan.springbatch.model.Task;
 
 @Configuration
 public class DatabaseReader implements ItemReader<Task> {

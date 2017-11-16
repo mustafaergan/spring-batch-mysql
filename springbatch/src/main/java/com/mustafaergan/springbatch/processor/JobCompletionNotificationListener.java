@@ -15,7 +15,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-import com.mustafaergan.springbatch.controller.Person;
+import com.mustafaergan.springbatch.model.Person;
 
 @Component
 public class JobCompletionNotificationListener extends JobExecutionListenerSupport {
